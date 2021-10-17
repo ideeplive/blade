@@ -1,1 +1,1 @@
-<h1>Use of includeWhen</h1>
+<h1>Use of includeWhen {{$wn}}</h1>

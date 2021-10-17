@@ -8,6 +8,9 @@ class ProductController extends Controller
 {
     function show(){
         //Use Of includeWhen
-        return view('product');
+        $websiteName = 'ClickKart';
+        $user = 'Admin';
+        $userType = $user =='Admin' ? true : false;
+        return view('product',['wn'=>$websiteName]);
     }
 }
