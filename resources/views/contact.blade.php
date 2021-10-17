@@ -8,9 +8,9 @@
 </head>
 <body>
     <h1>Contact Page</h1>
-    {{-- <h2>Name: {{$nm}}</h2>
+    <h2>Name: {{$nm}}</h2>
     <h3>Time: {{time()}}</h3>
-    <h4>SQRT: {{sqrt(56)}}</h4> --}}
+    <h4>SQRT: {{sqrt(56)}}</h4>
 
     {{-- @if($nm == 'Deep')
     <h4>Hello, {{$nm}}</h4>

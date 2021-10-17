@@ -7,10 +7,12 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     function show(){
-        //Use Of includeWhen
+
         $websiteName = 'ClickKart';
         $user = 'Admin';
         $userType = $user =='Admin' ? true : false;
-        return view('product',['wn'=>$websiteName]);
+        // $student = ['Raj', 'Rahul', 'Jay', 'Sumit']; 'students'=>$student
+        return view('product',['userType'=>$userType, 'wn'=>'Working With Me']);
+
     }
 }
